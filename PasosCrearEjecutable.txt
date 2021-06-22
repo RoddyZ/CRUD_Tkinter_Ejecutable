@@ -1,0 +1,12 @@
+1: Abrir el cmd y ejecutar lo siguiente:
+pip install pyinstaller
+
+2: Diriguirse al directorio donde esta el proyecto
+cd C://Ruta
+
+3: Ejecutar lo siguiente (esto hara un ejecutable con un solo archivo)
+
+pyinstaller --windowed --onefile nombreArchivo.py
+
+4: En caso de que queramos anadir una imagen .ico:
+pyinstaller --windowed --onefile --icon=./Nombre.ico nombreArchivo.py
